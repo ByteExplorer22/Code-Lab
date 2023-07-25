@@ -54,5 +54,4 @@ Replace g++ with the appropriate C++ compiler command if needed
   ```bash
   ./sales_management
 
-  ## Usage
-  -Check the available quantities of items.
+  
