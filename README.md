@@ -10,7 +10,6 @@ Welcome to the Sales Management for a Hotel project! This is a simple C++ progra
   - [Prerequisites](#prerequisites)
   - [Compilation](#compilation)
 - [Usage](#usage)
-- [License](#license)
 - [Contact](#contact)
 
 ## Description
@@ -59,4 +58,8 @@ Follow the steps below to compile and run the program:
   - Make a purchase and update the sold quantities.
   - View daily sales and total collections for each item.
 
- 
+ ### Contact
+
+ If you have any questions or want to get in touch, you can reach me at naimyr1723@gmail.com.
+
+  Enjoy managing your hotel sales with this simple yet effective Sales Management program!
