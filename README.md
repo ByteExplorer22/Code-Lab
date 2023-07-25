@@ -48,3 +48,11 @@ Follow the steps below to compile and run the program:
 
    ```bash
    g++ main.cpp -o sales_management
+
+Replace g++ with the appropriate C++ compiler command if needed
+1.Run the program:
+  ```bash
+  ./sales_management
+
+  ## Usage
+  -Check the available quantities of items.
