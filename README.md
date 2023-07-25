@@ -49,8 +49,9 @@ Follow the steps below to compile and run the program:
 
   Replace g++ with the appropriate C++ compiler command if needed
   1.Run the program:
-  ```
+  
     ./sales_management 
+    ```
   ### Usage
 
   Upon running the program, you will be presented with a menu of options. Follow the on-screen instructions to perform the following actions:
