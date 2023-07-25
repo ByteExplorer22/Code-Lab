@@ -47,9 +47,15 @@ Follow the steps below to compile and run the program:
    ```bash
    g++ main.cpp -o sales_management
 
-Replace g++ with the appropriate C++ compiler command if needed
-1.Run the program:
-  ```bash
-  ./sales_management
+  Replace g++ with the appropriate C++ compiler command if needed
+  1.Run the program:
+  ```
+    ./sales_management 
+  ### Usage
 
+  Upon running the program, you will be presented with a menu of options. Follow the on-screen instructions to perform the following actions:
+  - Check the available quantities of items.
+  - Make a purchase and update the sold quantities.
+  - View daily sales and total collections for each item.
 
+ 
