@@ -10,8 +10,6 @@ Welcome to the Sales Management for a Hotel project! This is a simple C++ progra
   - [Prerequisites](#prerequisites)
   - [Compilation](#compilation)
 - [Usage](#usage)
-- [Sample Output](#sample-output)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
@@ -54,4 +52,4 @@ Replace g++ with the appropriate C++ compiler command if needed
   ```bash
   ./sales_management
 
-  
+
