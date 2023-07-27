@@ -3,7 +3,7 @@
 
 ABC Travels is a comprehensive travel management application written in C++. It provides a command-line interface for users to manage customer details, book hotels, and rent cabs for travel. The application ensures a smooth user experience with intuitive options and a receipt generation feature.
 
-## Table of Contents
+## Table of Contents:
 
 - [Description](#description)
 - [Key Features](#key-features)
