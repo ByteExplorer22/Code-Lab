@@ -7,7 +7,6 @@ ABC Travels is a comprehensive travel management application written in C++. It 
 
 - [Description](#description)
 - [Key Features](#key-features)
-- [Demo](#demo)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
@@ -38,9 +37,6 @@ The primary objectives of ABC Travels are as follows:
 - Accurate cost calculation based on selected options.
 - Automated receipt generation for easy reference.
 
-## Demo
-
-[Provide a link to a demo video or GIF showcasing the application's functionality. If unavailable, you can skip this section.]
 
 ## Getting Started
 
