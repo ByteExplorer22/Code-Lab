@@ -116,7 +116,7 @@ public:
 			}
 			else{
 				cout << "Invalid Input! Redirecting to Previous menu" << endl << "Please Wait" << endl;
-				Sleep(999);
+				Sleep(1400);
 				system("CLS");
 				CabDetails();
 			}
