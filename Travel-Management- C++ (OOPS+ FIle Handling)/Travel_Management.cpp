@@ -476,7 +476,7 @@ public:
 };
 void Menu()
 {
-    cout << "\t\t      * ABC Travels *\n" << endl;
+    cout << "\t\t      * Voyage Master *\n" << endl;
     cout << "-------------------------Main Menu--------------------------" << endl;
 
     cout << "\t _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ " << endl;
@@ -518,11 +518,11 @@ void Menu()
         else if (inChoice == 2) {
             c1.showDetails();
         }
-        else {
+        else  {
             cout << "Invalid Input! Redirecting to Previous Menu " << endl;
             Sleep(1100);
             system("CLS");
-            Menu();
+            
         }
 
         cout << "Press 1 to return to the main menu: ";
