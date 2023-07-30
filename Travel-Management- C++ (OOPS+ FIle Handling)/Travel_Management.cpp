@@ -11,7 +11,8 @@ void Menu();
 class Customers{
 public:
 	string name, gender, city;
-	int age, mobile_no;
+	int age;
+	long long int mobile_no;
 	static int cust_id;
 	char all[9999];
 
