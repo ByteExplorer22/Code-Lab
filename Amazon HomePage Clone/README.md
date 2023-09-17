@@ -8,8 +8,7 @@ This project is a clone of the Amazon.com homepage created using HTML and CSS. I
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 
 ## Features
@@ -33,10 +32,10 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/amazon-homepage-clone.git
 
-Usage
+## Usage
 You can use this project to:
 
-Study and practice HTML and CSS web development.
-Modify and experiment with the code to improve your skills.
-Showcase your front-end development abilities in your portfolio.
-Feel free to customize and enhance the project as you see fit.
+- Study and practice HTML and CSS web development.
+- Modify and experiment with the code to improve your skills.
+- Showcase your front-end development abilities in your portfolio.
+- Feel free to customize and enhance the project as you see fit.
