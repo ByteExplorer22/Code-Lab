@@ -1,0 +1,412 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color:#4891ff;
+    --light-color: #f4f4f6;
+    --dark-color: #111;
+}
+
+body{
+    font-family: 'Poppins','sans-serif';
+    font-size: 16px;
+    background: #fff;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+ul {
+    list-style: none;
+    
+}
+img{
+    max-width: 100%;
+}
+
+.navbar{
+    padding-top: 10px;
+}
+.container {
+    max-width: 1150px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.container-sm {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+    padding-bottom: 60px;
+  }
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .container .main-menu ul {
+    display: flex;       
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 10px 20px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.navbar ul li a i {
+    margin-right: 10px;
+}
+.cards{
+    background: white;
+    color: black;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+#space{
+    margin-left: 10px;
+}
+.navbar ul li a:hover{
+    color: var(--primary-color);
+}
+
+.btn{
+    display: inline-block;
+    padding: 13px 20px;
+    background: var(--light-color);
+    color: #333;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.btn-primary{
+    background: var(--primary-color);
+    color: #fff;
+}
+.btn-dark{
+    background: var(--dark-color);
+    color: white;
+}
+
+.hero-buttons .btn i {
+    margin-right:10px;
+}
+.text-xxl{
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 40px 0 20px;
+    line-height: 1.2;
+}
+
+.text-xl{
+    font-size: 2.2rem;
+    font-weight: normal;
+    margin: 40px 0 20px;
+    line-height: 1.2;
+}
+.text-lg{
+    font-size: 1.8rem;
+    font-weight: normal;
+    margin: 30px 0 20px;
+    line-height: 1.2;
+}
+.text-md{
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin: 20px 0 10px;
+    line-height: 1.2;
+}
+
+.text-sm{
+    font-size: 0.9rem;
+    font-weight: normal;
+    margin: 10px 0 5px;
+    line-height: 1.2;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.hero{
+    margin-bottom: 50px;
+}
+.hero .container{
+    height: 550px;
+    background-image: url('hero-bg.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+}
+.hero-content{
+    width: 70%;
+}
+.hero-text{
+    width: 65%;
+}
+
+.hero-buttons{
+    margin-top: 20px;
+}
+
+.hero-buttons .btn-primary {
+    margin-right: 20px; /* Adjust the value as needed */
+}
+
+.video-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-preview{
+    margin-bottom: 20px;
+}
+.video-heading{
+    margin-bottom:22px;
+    padding-top: 30px;
+}
+.bg-black{
+    background:#000;
+    color: #fff;
+}
+
+.bg-primary {
+    background: var(--primary-color);
+    color: #fff;
+  }
+  
+  .bg-light {
+    background: var(--light-color);
+    color: #333;
+  }
+  
+  .bg-dark {
+    background: var(--dark-color);
+    color: #fff;
+  }
+
+  .testimonials{
+    padding: 40px 0px;
+  }
+
+  .testimonials-heading{
+    width: 60%;
+  }
+
+  
+
+  .testimonial-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+  }
+
+  .person{
+    font-weight: bold;
+  }
+
+  .comments{
+    font-style: italic;
+  }
+  .pricing ul{
+    margin: 30px;
+  }
+  
+  .pricing-card-body ul li{
+    margin-bottom: 30px;
+  }
+  .pricing-card-body ul li i{
+    margin-right: 10px;
+  }
+
+
+  .pricing-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    margin-top: 50px;
+  }
+
+  .pricing-card-subheading{
+    margin-bottom: 30px;
+  }
+
+  .pricing-card-price{
+    margin-bottom: 30px;
+    padding: 20px 0px;
+    border-bottom:1px solid #ccc;
+
+  }
+  .button-positioning{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pricing-footer{
+    margin: 30px 0px;
+  }
+
+  .end-footer{
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  .end-footer i {
+    margin-left: 5px;
+  }
+
+  .faq{
+    padding: 40px 0;
+  }
+
+  .faq-group{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .faq-group-header{
+    position: relative;
+    margin-bottom: 15px;
+    padding: 20px 0;
+
+  }
+
+  .faq-group-header h4{
+    font-weight: 600;
+    width: 95%;
+  }
+
+  .faq .faq-group .faq-group-header i {
+    position: relative;
+    right: -750px;
+    top: -55px;
+    font-size: 1.5 rem;
+    cursor: pointer;
+  }
+
+  .faq-group-body {
+    display: none;
+  }
+  .faq-group-body.open {
+    display: block;
+  }
+
+  ul.faq-menu{
+    display: flex;
+    max-width: 400px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    padding: 10px 20px;
+    background: #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .faq .faq-menu li{
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .faq .faq-menu .active {
+    background: var(--primary-color);
+    color: white;
+  }
+
+  .footer{
+    padding: 40px 0px;
+  }
+
+  .footer ul li{
+    line-height: 2.5;
+  }
+  .footer i{
+    margin-top: 10px;
+    margin-left: 5px;
+   font-size: 22px;
+   margin-right: 10px;
+  }
+  .contact-grid{
+    line-height: 2.5;
+  }
+
+  .footer-grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer input[type='email']{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px 0px;
+  }
+
+.hamburger-button{
+  display: none;
+  padding: 10px;
+  background: none;
+  border: none;
+  cursor:pointer;
+  z-index: 1000;
+}
+
+.hamburger-button .hamburger-line {
+  width: 30px;
+  height: 3px;
+  background: #333;
+  margin: 6px 0;
+}
+
+.mobile-menu{
+  position: fixed;
+  top:0;
+  right:-300px;
+  width:250px;
+  background: #fff;
+  height:100%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transition: right 0.4s ease-in-out;
+}
+  @media (max-width:960px){
+
+  }
+
+  @media (max-width:670px){
+    .navbar .main-menu {
+      display: none;
+    }
+
+    .navbar .hambuger-button{
+      display: block;
+    }
+  }
+
+  @media (max-width:500px){
+
+  }
+
